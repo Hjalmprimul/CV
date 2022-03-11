@@ -133,6 +133,9 @@ hr:not([size]){
     font-size: 40px;
     transition: transform .5s ease-in-out;
 }
+.name-p{
+    display: none;
+}
 .top-bar .menu{
     cursor: pointer;
     display: block;
@@ -346,6 +349,12 @@ hr:not([size]){
     }
     .top-bar{
         display: flex;
+    }
+    .name-w{
+        display: none;
+    }
+    .name-p{
+        display: block;
     }
     .nav-bar{
         transform: translateX(-200px);
