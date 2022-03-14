@@ -12,7 +12,7 @@ document.querySelector('.gr').addEventListener('click', () => {
     document.querySelector('.lenguage-selector').classList.toggle('animation-selector');
     setTimeout(() =>{
         document.querySelector('.lenguage-selector').classList.toggle('hide-selector');
-        document.querySelector('.lenguage-selector').classList.remove('animation-selector');
+        document.querySelector('.lenguage-selector').classList.remove('animation-selector');    
     }, 1900);
 })
 
