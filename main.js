@@ -13,6 +13,7 @@ document.querySelector('.gr').addEventListener('click', () => {
     setTimeout(() =>{
         document.querySelector('.lenguage-selector').classList.toggle('hide-selector');
         document.querySelector('.lenguage-selector').classList.remove('animation-selector');
+        document.querySelector('.name').classList.remove('hide-name');
     }, 1900);
 })
 
@@ -29,6 +30,7 @@ document.querySelector('.esp').addEventListener('click', () => {
     setTimeout(() =>{
         document.querySelector('.lenguage-selector').classList.toggle('hide-selector');
         document.querySelector('.lenguage-selector').classList.remove('animation-selector');
+        document.querySelector('.name').classList.remove('hide-name');
     }, 1900);
 })
 
