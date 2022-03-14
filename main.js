@@ -103,7 +103,7 @@ document.querySelector('.categories').addEventListener('click', () =>{
     document.querySelector('.darkenizer').classList.remove('opa')
 })
 
-// Nav-Bar Selector
+// Nav-Bar and Top-bar Selector
 
 /* Selector English */
 var gr = document.querySelectorAll('.gr-nav-bar');
@@ -111,6 +111,8 @@ for (var i = 0; i < gr.length; i++){
     gr[i].addEventListener('click', () => {
         
         document.querySelector('.l').classList.remove('l-show');
+        document.querySelector('.name').classList.remove('hide-name');
+
         var element = document.querySelectorAll('.spanish');
         var element2 = document.querySelectorAll('.english');
         for (var i = 0; i < element.length; i++){
@@ -126,6 +128,8 @@ for (var i = 0; i < esp.length; i++){
     esp[i].addEventListener('click', () => {
 
         document.querySelector('.l').classList.toggle('l-show');
+        document.querySelector('.name').classList.remove('hide-name');
+
         var element = document.querySelectorAll('.english');
         var element2 = document.querySelectorAll('.spanish');
         for (var i = 0; i < element.length; i++){
