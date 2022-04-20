@@ -1,3 +1,3 @@
 # CV
 
-> Aguirre Lucas Ezequiel CV
+> Aguirre Lucas Ezequiel CV with Js-HTML-CSS
